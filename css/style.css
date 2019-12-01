@@ -1,0 +1,67 @@
+body{
+	background-image: url(../img/bg.png);
+	    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: fi;
+}
+/*fondo del menu superior*/
+.bg-gris-oscuro{
+	background-color:#cccccc;
+}
+/*botones del menu superior*/
+.bg-gris-oscuro a{
+	transition: .5s;
+	color:#ffffff;
+	background-color:#cccccc;
+}
+.bg-gris-oscuro a:hover{
+	transition: .5s;
+	color:#eeeeee;
+	background-color:#bbbbbb;
+}
+/*contenedor de varios elementos*/
+.burbuja{
+	background-color:#ededed;
+	border:#e0e0e0 2px solid;
+	border-radius:20px;
+	padding: 10px 25px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+/*div del login*/
+.login-centrado{
+	margin: 100px auto;
+	max-width: 500px;
+	max-height:500px;
+}
+/*divs del menu desplegable de calculadora.php*/
+.buscador-desplegable{
+	background-color:#dcdcdc;
+	border:#aaaaaa 2px solid;
+	position:absolute;
+	width:90%;
+	text-align:left;
+	z-index:20;
+}
+.buscador-desplegable ul{
+	padding:0px;
+	border-collapse:collapse;
+	margin:0px;
+}
+.buscador-desplegable ul li{
+	list-style:none;
+	font-size:1.2em;
+	border:1px solid black;
+	padding:5px;
+	transition:1s;
+}
+.buscador-desplegable ul li:hover{
+	background-color:#ffffff;
+	transition:1s;
+}
+.margen-auto{/*usado para centrar elementos*/
+	margin:auto;
+}
+.derecha{
+	margin-left: auto;
+}
